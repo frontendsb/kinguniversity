@@ -4,11 +4,16 @@ import CI1 from "../../images/couress-img-1.jpg";
 import CI2 from "../../images/couress-img-2.jpg";
 import CI3 from "../../images/couress-img-3.jpg";
 import Bk from "../../images/cou-icon.png";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function Course() {
+  AOS.init({
+    duration: 1200,
+  })
   return (
     <>
-      <section id="our-course">
+      <section id="our-course" data-aos={"fade-up"}>
         <div className="container-fluid">
           <h2>Our Courses</h2>
           <div className="row">

@@ -1,6 +1,12 @@
 import React, { useState } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function ContactForm() {
+  AOS.init({
+    duration: 1200,
+  })
+
   const [userData, setUserData] = useState({
     fullName: "",
     email: "",
@@ -59,7 +65,7 @@ function ContactForm() {
   return (
     <>
       <div id="contact_form">
-        <div className="container-fluid">
+        <div className="container-fluid" data-aos={"fade-up"}>
           <h2>LEAVE US YOUR INFO</h2>
           <p>AND WE WILL GET BACK TO YOU.</p>
           <div className="inner-container">

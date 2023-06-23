@@ -12,10 +12,10 @@ function Event() {
   return (
     <>
 
-    <section id='event-section'>
+    <section id='event-section' data-aos={"fade-up"}>
         <div className='container-fluid'>
             <h2>Upcoming Events</h2>
-            <div className='row pt-5' data-aos={"fade-up"}>
+            <div className='row pt-5'>
             <div className='col-xl-4 col-lg-4 col-md-6 col-12'>
                 <div className='event_wrap'>
                     <div className='time_box'>

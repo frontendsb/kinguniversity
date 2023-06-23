@@ -23,6 +23,9 @@ import BlogContent from './View/Blog/BlogContent';
 import Page1 from './View/Blog/Page1';
 import Page2 from './View/Blog/Page2';
 import Page3 from './View/Blog/Page3';
+import Contact from './View/Contact/Index';
+import Appointment from './View/Contact/Appointment';
+import ContactForm from './Component/ContactForm';
 import ApplyForm from './Component/ApplyForm';
 
 function App() {
@@ -52,6 +55,9 @@ function App() {
         <Route path='/page1' element={<Page1 />}/>
         <Route path='/page2' element={<Page2 />}/>
         <Route path='/page3' element={<Page3 />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/appointment' element={<Appointment />}/>
+        <Route path='/contactform' element={<ContactForm />}/>
         <Route path='/ApplyForm' element={<ApplyForm />}/>
       </Route>
     </Routes>
