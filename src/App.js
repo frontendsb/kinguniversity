@@ -13,7 +13,17 @@ import About from './View/About/Index';
 import Whychoose from './View/About/Whychoose';
 import History from './View/About/History';
 import Admission from './View/About/Admission';
-import ApplyForm from './Component/ApplyForm'
+import Courses from './View/Courses/Index';
+import OurCourse from './View/Courses/OurCourse';
+import Course1 from './View/Courses/SubCourses/Course1';
+import Course2 from './View/Courses/SubCourses/Course2';
+import Course3 from './View/Courses/SubCourses/Course3';
+import Blog from './View/Blog/Index';
+import BlogContent from './View/Blog/BlogContent';
+import Page1 from './View/Blog/Page1';
+import Page2 from './View/Blog/Page2';
+import Page3 from './View/Blog/Page3';
+import ApplyForm from './Component/ApplyForm';
 
 function App() {
   return (
@@ -27,12 +37,22 @@ function App() {
         <Route path='/apply' element={<Apply />}/> 
         <Route path='/video' element={<Video />}/> 
         <Route path='/testimonial' element={<Testimonial />}/> 
-        <Route path='/ApplyForm' element={<ApplyForm />}/>
         <Route path='/study' element={<Study />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/whychoose' element={<Whychoose />}/>
         <Route path='/history' element={<History />}/>
         <Route path='/admission' element={<Admission />}/>
+        <Route path='/courses' element={<Courses />}/>
+        <Route path='/ourcourse' element={<OurCourse />}/>
+        <Route path='/course1' element={<Course1 />}/>
+        <Route path='/course2' element={<Course2 />}/>
+        <Route path='/course3' element={<Course3 />}/>
+        <Route path='/blog' element={<Blog />}/>
+        <Route path='/blogcontent' element={<BlogContent />}/>
+        <Route path='/page1' element={<Page1 />}/>
+        <Route path='/page2' element={<Page2 />}/>
+        <Route path='/page3' element={<Page3 />}/>
+        <Route path='/ApplyForm' element={<ApplyForm />}/>
       </Route>
     </Routes>
    </Router>
