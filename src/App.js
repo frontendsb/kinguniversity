@@ -9,6 +9,10 @@ import Apply from './View/Home/Apply';
 import Video from './View/Home/Video';
 import Testimonial from './View/Home/Testimonial';
 import Study from './View/Home/Study';
+import About from './View/About/Index';
+import Whychoose from './View/About/Whychoose';
+import History from './View/About/History';
+import Admission from './View/About/Admission';
 import ApplyForm from './Component/ApplyForm'
 
 function App() {
@@ -25,6 +29,10 @@ function App() {
         <Route path='/testimonial' element={<Testimonial />}/> 
         <Route path='/ApplyForm' element={<ApplyForm />}/>
         <Route path='/study' element={<Study />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/whychoose' element={<Whychoose />}/>
+        <Route path='/history' element={<History />}/>
+        <Route path='/admission' element={<Admission />}/>
       </Route>
     </Routes>
    </Router>

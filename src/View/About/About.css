@@ -1,0 +1,281 @@
+/* Why Choose Us Start */
+
+#about-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: #e6e6e6;
+}
+
+#about-section .nav-tabs {
+  justify-content: flex-end;
+}
+
+#about-section .tab-content .left_image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#about-section .tab-content .left_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#about-section .tab-content .cnt_wrap {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+#about-section .abt_cnt {
+  padding: 0 30px;
+}
+
+#about-section .abt_cnt h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: none;
+  color: #314e85;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+#about-section .abt_cnt p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  font-weight: normal;
+  font-size: 18px;
+  color: #8c8c8c;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#about-section .nav-link {
+  font-family: "Poppins", sans-serif;
+  padding: 1.5rem 2rem;
+  background-color: #f7f7f7;
+  font-size: 17px;
+  font-weight: 700;
+  color: #8d8d8d;
+  text-transform: none;
+  letter-spacing: 0;
+  border: none;
+}
+
+#about-section .nav-link.active {
+  background-color: #fff;
+  color: #464646;
+  border: none;
+}
+
+/* Responsive Start */
+
+@media (max-width: 1140px) {
+  #about-section .abt_cnt h4 {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+
+  #about-section .abt_cnt p {
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1040px) {
+  #about-section .abt_cnt h4 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  #about-section .abt_cnt p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  #about-section .tab-content .cnt_wrap {
+    flex-direction: column;
+  }
+
+  #about-section .abt_cnt {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  #about-section .nav-link {
+    width: 50%;
+    padding: 1rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 420px) {
+    #about-section .abt_cnt h4 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    #about-section .abt_cnt p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Why Choose Us End */
+
+
+/* History Start */
+
+#history-section{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+#history-section .title h3{
+  font-family: "Poppins",sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #161616;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#history-section .title .line{
+  width: 57%;
+  height: 3px;
+  background-color: #3db166;
+}
+
+#history-section p{
+  font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    font-weight: normal;
+    font-size: 18px;
+    color: #8c8c8c;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+/* Responsive Start */
+
+@media(max-width: 768px){
+  #history-section{
+    padding: 20px 0;
+  }
+}
+/* History End */
+
+/* Admission Start */
+
+#admission{
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+#admission .ad_left{
+  width: 100%;
+  height: auto;
+}
+
+#admission .ad_left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#admission .ad_cnt{
+width: 100%;
+height: auto;
+padding: 0 50px;
+}
+
+#admission .ad_cnt h2{
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size: 50px;
+  color: #232323;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#admission .ad_cnt p{
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  font-weight: normal;
+  font-size: 18px;
+  color: #8c8c8c;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+#admission .ad_cnt .read_btn{
+  max-width: 150px;
+  width: 100%;
+  height: 55px;
+  background-color: #3db166;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: none;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+#admission .ad_cnt .read_btn i{
+  margin-left: 7px;
+}
+
+#admission .ad_cnt .read_btn:hover {
+  background-color: #2f2f2f;
+}
+
+/* Responsive Start */
+
+@media(max-width: 1152px){
+  #admission .ad_cnt{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+}
+
+@media(max-width: 520px){
+
+#admission {
+    padding: 20px 0px;
+}
+  #admission .ad_cnt h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#admission .ad_cnt p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+}
+/* Admission End */
