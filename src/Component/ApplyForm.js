@@ -26,7 +26,7 @@ function Apply({ closeModal }) {
 
     if (firstName && lastName && subject && email && phone && message) {
       const res = fetch(
-        "https://applyfirebase-45459-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://applyfirebase-3e545-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
           headers: {

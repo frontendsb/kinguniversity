@@ -30,7 +30,7 @@ function ContactForm() {
 
     if (fullName && email && phone && subject && message) {
       const res = fetch(
-        "https://contactfirebase-a7f94-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://contactfirebase-3cc4a-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
           headers: {
